@@ -25,21 +25,4 @@ class Login extends BaseController {
         }
     }
 
-    public function test() {
-
-        $usuarioModel = new UsuariosModel();
-
-        $dados = [
-            'nome_usuario' => 'irani junior',
-            'senha_usuario' => password_hash('adm@deposito12345', PASSWORD_DEFAULT),
-            'nivel_acesso' => 'adm',
-            'status_usuario' => 'ativo'
-        ];
-
-        if($usuarioModel->save($dados)):
-            echo 'deu certo';
-        else:
-            echo 'deu erro';
-        endif;
-    }
 }
