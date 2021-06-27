@@ -30,9 +30,9 @@ class Login extends BaseController {
         $usuarioModel = new UsuariosModel();
 
         $dados = [
-            'nome_usuario' => 'supervisor',
+            'nome_usuario' => 'irani junior',
             'senha_usuario' => password_hash('12354', PASSWORD_DEFAULT),
-            'nivel_acesso' => 'supervisor',
+            'nivel_acesso' => 'adm',
             'status_usuario' => 'ativo'
         ];
 
