@@ -1,0 +1,47 @@
+#upload-dialog {
+   
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+
+#pdf-file {
+    display: none;
+}
+
+#pdf-loader {
+    display: none;
+    vertical-align: middle;
+    color: #cccccc;
+    font-size: 12px;
+}
+
+#pdf-preview {
+    height: 200px;
+    width: 150px;
+    vertical-align: middle;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+#pdf-name {
+    
+    vertical-align: middle;
+    color: #336699;
+    margin: 0 15px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#upload-button {
+    
+    display: none;
+   
+}
+
+#cancel-pdf {
+    display: none;
+}
