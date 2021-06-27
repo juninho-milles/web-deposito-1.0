@@ -1,0 +1,2 @@
+<script src="<?=base_url()?>/assets/bower_components/select2/dist/js/select2.full.min.js"></script>
+<script src="<?=base_url()?>/assets/dist/includes/relatorios/js/view_index_montar_relatorio.js"></script>
