@@ -66,8 +66,8 @@ document.querySelector("#pdf-file").addEventListener('change', function() {
     }
 
     // validate file size
-    if(file.size > 10*1024*1024) {
-        alert('Error : Exceeded size 10MB');
+    if(file.size > 20*1024*1024) {
+        alert('Erro : Tamanho do PDF Maior que 20MB');
         return;
     }
 

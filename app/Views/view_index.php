@@ -191,7 +191,7 @@
                 <div class="pull-right hidden-xs">
                     <b>Versão</b> 1.0.0
                 </div>
-                <strong>Copyright &copy; 2021 </strong>- Irani Junior
+                <strong>WEB DEPÓSITO &copy; 2021 </strong> ( Irani Junior )
             </footer>
         </div>
         <!-- ./wrapper -->

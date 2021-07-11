@@ -29,7 +29,7 @@ class RelatoriosAjax extends BaseController {
         }
 
         if($dadosLancamento['inputNumeroDaNota'] != '') {
-            $consulta .= ' AND numero_nota = '.$dadosLancamento['inputNumeroNota'];
+            $consulta .= ' AND numero_nota = '.$dadosLancamento['inputNumeroDaNota'];
         }
 
         if($dadosLancamento['inputSetor'] != 0) {

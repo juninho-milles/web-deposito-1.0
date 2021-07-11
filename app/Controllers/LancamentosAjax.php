@@ -182,6 +182,8 @@ class LancamentosAjax extends BaseController {
         $idLancamento = $this->request->getPost('idLancamento');
 
         $nome = uniqid();
+        $_FILES['pdf']['upload_max_filesize'] = '20M';
+        $_FILES['pdf']['post_max_size'] = '21M';
         $tempFile = $_FILES['pdf']['tmp_name']; 
         $ext = explode(".",$_FILES['pdf']['name']);
         $ext = end($ext);
