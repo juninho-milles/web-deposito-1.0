@@ -45,6 +45,11 @@
                         <td><strong>TABELA DE COMPRA AVULSA (AÇOUGUE) :</strong></td>
                         <td class="text-right"><a href="<?=base_url()?>/assets/dist/arquivos/nota_avulsa_acougue.pdf" target="_blank" class="btn btn-default btn-xs text-blue"><i class="glyphicon glyphicon-print"></i> IMPRIMIR</a></td>
                     </tr>
+                    
+                    <tr>
+                        <td><strong>TABELA POSIÇÃO DE ESTOQUE :</strong></td>
+                        <td class="text-right"><a href="<?=base_url()?>/assets/dist/arquivos/planilha_posição_de_estoque.pdf" target="_blank" class="btn btn-default btn-xs text-blue"><i class="glyphicon glyphicon-print"></i> IMPRIMIR</a></td>
+                    </tr>
                 </tbody>
             </table>
                 
