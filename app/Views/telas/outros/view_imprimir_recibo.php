@@ -42,16 +42,11 @@
 			<br>
 
             <div class="row text-center">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th><p>DATA: ______/______/____________</p></th>
-							<th class="text-right"><p>ASSINATURA: _________________________________________</p></th>
-						</tr>
-					</tbody>
-				</table>
+				
+		<p>______________________________________________</p>
+		    <p>(ATACADÃO VICUNHA)</p>
+		    <p>35.298.801/0001-60</p>
 		    
-		<p>ASSINATURA: _________________________________________</p>
 	   </div>
         </div>
 
