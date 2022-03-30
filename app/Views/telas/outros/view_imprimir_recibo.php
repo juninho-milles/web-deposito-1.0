@@ -44,8 +44,8 @@
             <div class="row text-center">
 				
 		<p>______________________________________________</p>
-		    <p><strong>(ATACADÃO VICUNHA LTDA)</strong></p>
-		    <p><strong>35.298.801/0001-60</strong></p>
+		    <p><b>(ATACADÃO VICUNHA LTDA)</b></p>
+		    <p><b>35.298.801/0001-60</b></p>
 		    
 	   </div>
         </div>
