@@ -41,7 +41,7 @@
 			<br>
 			<br>
 
-            <div class="row">
+            <div class="row text-center">
 				<table class="table">
 					<tbody>
 						<tr>
@@ -50,7 +50,9 @@
 						</tr>
 					</tbody>
 				</table>
-			</div>
+		    
+		<p>ASSINATURA: _________________________________________</p>
+	   </div>
         </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
