@@ -51,8 +51,8 @@ class OutrosAjax extends BaseController {
             $numeroNota .= $dadosNumeroNota[$i].', ';
         }
 
-        $texto .='Recebi a importância de R$ <b>'.$valor.' ('.converteValorPorExtenso($valor, 2).')</b> referente a descarrego de produtos constante na(s)
-        nota(s) fiscal nº ,'.$numeroNota.' fornecedor (es) '.$fornecedor['nome_fornecedor'].', CNPJ n.'.$inputCnpj_cpf.'.';
+        $texto .='Por meio deste documento declaro que recebi a quantia de R$ <b>'.$valor.' ('.converteValorPorExtenso($valor, 2).')</b> referente ao descarrego dos produtos constantes na(s)
+        nota(s) fiscal(ais) de número: '.$numeroNota.' emitida(s) pelo fornecedor: '.$fornecedor['nome_fornecedor'].', cadastrado no CNPJ de número: '.$inputCnpj_cpf.'.';
         
         $dados = [
             'descricao_outros' => 'RECIBO - '.$fornecedor['nome_fornecedor'],
