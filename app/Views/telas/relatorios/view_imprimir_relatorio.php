@@ -125,6 +125,7 @@
             <th class="text-center campoRecebedor" style="background-color: #f3f0f0">RECEBEDOR</th>
             <th class="text-center campoWinthor" style="background-color: #f3f0f0">WINTHOR</th>
             <th class="text-center campoDescarrego" style="background-color: #f3f0f0">TAXA DESCARREGO</th>
+	    <th class="text-center campoWinthor" style="background-color: #f3f0f0">CONTAS A PAGAR</th>
           </tr>
         </thead>
         <tbody id="listaDeLancamentoRelatorio">   
@@ -146,6 +147,7 @@
               <td class="text-center campoRecebedor"><?=$relatorio['nome_conferente']?></td>
               <td class="text-center"></td>
               <td class="text-center campoDescarrego">R$ <?=$relatorio['taxa_descarrego']?></td>
+	      <td class="text-center"></td>
             </tr>
           <?php
           }
