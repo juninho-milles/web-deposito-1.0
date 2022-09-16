@@ -89,6 +89,12 @@
           font-size: 16px;
           height: 30px;
         }
+		
+	.campoContasAPagar {
+          width: 150px;
+          font-size: 16px;
+          height: 30px;
+        }
         </style>
     </head>
   <body>
@@ -125,7 +131,7 @@
             <th class="text-center campoRecebedor" style="background-color: #f3f0f0">RECEBEDOR</th>
             <th class="text-center campoWinthor" style="background-color: #f3f0f0">WINTHOR</th>
             <th class="text-center campoDescarrego" style="background-color: #f3f0f0">TAXA DESCARREGO</th>
-	    <th class="text-center campoWinthor" style="background-color: #f3f0f0">CONTAS A PAGAR</th>
+	    <th class="text-center campoContasAPagar" style="background-color: #f3f0f0">CONTAS A PAGAR</th>
           </tr>
         </thead>
         <tbody id="listaDeLancamentoRelatorio">   
