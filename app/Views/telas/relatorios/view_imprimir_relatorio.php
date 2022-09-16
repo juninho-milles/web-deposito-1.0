@@ -79,7 +79,7 @@
         }
 
         .campoWinthor {
-          width: 100px;
+          width: 130px;
           font-size: 16px;
           height: 30px;
         }
@@ -91,7 +91,7 @@
         }
 		
 	.campoContasAPagar {
-          width: 150px;
+          width: 110px;
           font-size: 16px;
           height: 30px;
         }
