@@ -148,6 +148,7 @@
               <td class="text-center"></td>
               <td class="text-center campoDescarrego">R$ <?=$relatorio['taxa_descarrego']?></td>
 	      <td class="text-center"></td>
+		    
             </tr>
           <?php
           }
