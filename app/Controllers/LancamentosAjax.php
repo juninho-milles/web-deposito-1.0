@@ -136,7 +136,7 @@ class LancamentosAjax extends BaseController {
         if($this->request->getMethod() !== 'post'):
             return redirect()->to(base_url('lancamentos'));
         endif;
-        sleep(1);
+        
 
         $dadosLancamento = $this->request->getPost('dados');
 
