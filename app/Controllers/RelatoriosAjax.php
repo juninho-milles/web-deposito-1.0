@@ -19,8 +19,6 @@ class RelatoriosAjax extends BaseController {
             return redirect()->to(base_url('relatorios'));
         endif;
 
-        sleep(1);
-
         $dadosLancamento = $this->request->getPost('dados');
         $consulta = '';
 
